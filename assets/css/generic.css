@@ -1,0 +1,429 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+@media screen and (min-width: 1300px) {
+    header{
+        position: relative;
+        left: 5em;
+    }
+    header p{
+        width: 70em;
+    }
+    .galeria{
+        display: grid;
+        grid-template-columns: repeat(4,311px);
+        grid-template-rows: repeat(4, 300px);
+        gap: 2px;
+        position: relative;
+        left: 5em;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+    }
+    .contenedor{
+        width: 100%;
+        height: 100%;
+    }
+    .uno {
+        grid-row: 1/3;
+        grid-column: 1/2;
+
+    }
+    .dos{
+        grid-row: 1/2;
+        grid-column: 2/3;
+
+    }
+    .cuatro{
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
+    .tres {
+        grid-row: 1/2;
+        grid-column: 3/4;
+    }
+    .cinco{
+        grid-row: 1/2;
+        grid-column: 4/5;
+    }
+    .seis {
+        grid-row: 2/3;
+        grid-column: 4/5;
+    }
+    .siete{
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+    .ocho{
+        grid-row: 4/5;
+        grid-column: 1/2;
+    }
+    .nueve{
+        grid-row: 3/5;
+        grid-column: 2/3;
+    }
+    .diez{
+        grid-row: 3/4;
+        grid-column: 3/4;
+    }
+    .once{
+        grid-row: 4/5;
+        grid-column: 3/4;
+    }
+    .doce{
+        grid-row: 3/4;
+        grid-column: 4/5;
+}
+
+}
+@media screen and (min-width: 1100px) and (max-width: 1290px) {
+    header{
+        position: relative;
+        left: 5em;
+    }
+    header p{
+        width: 70em;
+    }
+    .galeria{
+        display: grid;
+        grid-template-columns: repeat(4,311px);
+        grid-template-rows: repeat(4, 300px);
+        gap: 2px;
+        position: relative;
+        left: 1em;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+    }
+    .contenedor{
+        width: 100%;
+        height: 100%;
+    }
+    .uno {
+        grid-row: 1/3;
+        grid-column: 1/2;
+
+    }
+    .dos{
+        grid-row: 1/2;
+        grid-column: 2/3;
+
+    }
+    .cuatro{
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
+    .tres {
+        grid-row: 1/2;
+        grid-column: 3/4;
+    }
+    .cinco{
+        grid-row: 1/2;
+        grid-column: 4/5;
+    }
+    .seis {
+        grid-row: 2/3;
+        grid-column: 4/5;
+    }
+    .siete{
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+    .ocho{
+        grid-row: 4/5;
+        grid-column: 1/2;
+    }
+    .nueve{
+        grid-row: 3/5;
+        grid-column: 2/3;
+    }
+    .diez{
+        grid-row: 3/4;
+        grid-column: 3/4;
+    }
+    .once{
+        grid-row: 4/5;
+        grid-column: 3/4;
+    }
+    .doce{
+        grid-row: 3/4;
+        grid-column: 4/5;
+}
+
+}
+@media screen and (min-width: 1000px ) and (max-width: 1100px){
+    header{
+        position: relative;
+        left: 3em;
+    }
+    header p{
+        width: 60em;
+        padding-bottom: 20px;
+    }
+    .galeria{
+        display: grid;
+        grid-template-columns: repeat(3,311px);
+        grid-template-rows: repeat(4, 300px);
+        gap: 2px;
+        position: relative;
+        left: 3em;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+    }
+    .contenedor{
+        width: 100%;
+        height: 100%;
+    }
+    .uno {
+        grid-row: 1/3;
+        grid-column: 1/2;
+
+    }
+    .dos{
+        grid-row: 1/2;
+        grid-column: 2/3;
+
+    }
+    .cuatro{
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
+    .tres {
+        grid-row: 1/2;
+        grid-column: 3/4;
+    }
+    .cinco{
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+    .seis {
+        grid-row: 4/5;
+        grid-column: 1/2;
+    }
+    .siete{
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+    .ocho{
+        grid-row: 4/5;
+        grid-column: 1/2;
+    }
+    .nueve{
+        grid-row: 3/5;
+        grid-column: 2/3;
+    }
+    .diez{
+        grid-row: 3/4;
+        grid-column: 3/4;
+    }
+    .once{
+        grid-row: 4/5;
+        grid-column: 3/4;
+    }
+    .doce{
+        display: none;
+    }
+}
+@media screen and (min-width: 900px ) and (max-width: 1000px){
+    .galeria{
+        display: grid;
+        grid-template-columns: repeat(3, 311px);
+        grid-template-rows: repeat(3,300px);
+        position: relative;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        gap: 2px;
+
+    }
+    .contenedor{
+        width: 100%;
+        height: 100%;
+    }
+        
+    .uno {
+        display: none;
+
+    }
+    .dos{
+        grid-row: 1/2;
+        grid-column: 1/2;
+
+    }
+    .cuatro{
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+    .tres {
+        display: none;
+    }
+    .cinco{
+        grid-row: 1/2;
+        grid-column: 3/4;
+    }
+    .seis {
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+    .ocho{
+        grid-row: 3/4;
+        grid-column: 2/3;
+    }
+    .nueve{
+        display: none;
+    }
+    .diez{
+        grid-row: 2/3;
+        grid-column: 3/4;
+    }
+    .once{
+        grid-row: 3/4;
+        grid-column: 3/4;
+    }
+    .doce{
+        display: none;
+    }
+}
+@media screen and (min-width: 760px ) and (max-width: 850px){
+    .galeria{
+        display: grid;
+        grid-template-columns: repeat(2, 311px);
+        grid-template-rows: repeat(4,300px);
+        position: relative;
+        left: 4em;
+        padding-top: 30px;
+        gap: 2px;
+
+    }
+    .contenedor{
+        width: 100%;
+        height: 100%;
+    }
+        
+    .uno {
+        grid-row: 1/3;
+        grid-column: 1/2;
+
+    }
+    .dos{
+        grid-row: 1/2;
+        grid-column: 2/3;
+
+    }
+    .cuatro{
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
+    .tres {
+        grid-row: 3/5;
+        grid-column: 2/3;
+    }
+    .cinco{
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+    .seis {
+        grid-row: 4/5;
+        grid-column: 1/2;
+    }
+    .nueve{
+        display: none;
+    }
+    .diez{
+        display: none;
+    }
+    .once{
+       display: none;
+    }
+    .doce{
+        display: none;
+    }
+}
+@media screen and (min-width: 700px ) and (max-width: 760px){
+    .galeria{
+        display: grid;
+        grid-template-columns: repeat(2, 311px);
+        grid-template-rows: repeat(4,300px);
+        position: relative;
+        left: 6em;
+        padding-top: 30px;
+        gap: 2px;
+
+    }
+    
+    .contenedor{
+        width: 100%;
+        height: 100%;
+    }
+        
+    .uno {
+        grid-row: 1/3;
+        grid-column: 1/2;
+
+    }
+    .dos{
+        grid-row: 1/2;
+        grid-column: 2/3;
+
+    }
+    .cuatro{
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
+    .tres {
+        grid-row: 3/5;
+        grid-column: 2/3;
+    }
+    .cinco{
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+    .seis {
+        grid-row: 4/5;
+        grid-column: 1/2;
+    }
+    .nueve{
+        display: none;
+    }
+    .diez{
+        display: none;
+    }
+    .once{
+       display: none;
+    }
+    .doce{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 380px ) and (max-width: 600px){
+    .galeria{
+        position: relative;
+        left: 40px;
+        padding-top: 30px;
+        gap: 2px;
+
+    }
+
+    .contenedor{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media screen and (min-width: 340px ) and (max-width: 375px){
+    .galeria{
+        position: relative;
+        left: 30px;
+        padding-top: 30px;
+        gap: 2px;
+
+    }
+
+    .contenedor{
+        width: 100%;
+        height: 100%;
+    }
+}
