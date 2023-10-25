@@ -86,6 +86,7 @@ input, select, textarea {
 
 		html, body {
 			min-width: 320px;
+			overflow-x: hidden; /* ocultar */
 		}
 
 	}
@@ -3118,6 +3119,7 @@ input, select, textarea {
 		top: 0;
 		width: 100%;
 		z-index: 10000;
+		overflow-x: hidden;
 	}
 
 		#header h1 {
