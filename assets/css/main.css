@@ -191,10 +191,10 @@ input, select, textarea {
 			border-bottom: 0;
 			display: block;
 			font-family: Raleway, Helvetica, sans-serif;
-			font-size: 0.8em;
+		/*	font-size: 0.8em; */
 			font-weight: 700;
 			letter-spacing: 0.1em;
-			margin: 0 0 2em 0;
+			/*margin: 0 0 2em 0;*/
 			text-transform: uppercase;
 			color: #930b78;
 		}
@@ -297,8 +297,8 @@ input, select, textarea {
 			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 		    color: #930b78;
 
-			margin: auto;
-			margin-left: 15px;
+			/*margin: auto;
+			/*margin-left: 15px;*/
 
 		}
 
@@ -3436,7 +3436,7 @@ input, select, textarea {
 
 	#banner {
 		padding: 6em 0 4.75em 0 ;
-		background-image: linear-gradient(to top, rgb(181 163 175), rgb(46 49 65 / 0%)), url('/nailsby_v_and_v/nails/f1.PNG');
+		background-image: linear-gradient(to top, rgb(181 163 175), rgb(46 49 65 / 0%)), url('/nails/f1.PNG');
 		background-repeat: no-repeat;
 		background-size: cover;
 
@@ -3529,7 +3529,7 @@ input, select, textarea {
 
 			#banner {
 				padding: 7em 0 8.25em 0 ;
-				background-image: linear-gradient(to top, rgb(181 163 175), rgb(46 49 65 / 0%)), url('/nailsby_v_and_v/nails/f1.PNG');
+				background-image: linear-gradient(to top, rgb(181 163 175), rgb(46 49 65 / 0%)), url('/nails/f1.PNG');
 				background-size: auto,
  cover;
 				background-position: center,
@@ -3542,7 +3542,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			#banner {
-				background-image: linear-gradient(to top, rgb(181 163 175), rgb(46 49 65 / 0%)), url('/nailsby_v_and_v/nails/f1.PNG');
+				background-image: linear-gradient(to top, rgb(181 163 175), rgb(46 49 65 / 0%)), url('/nails/f1.PNG');
 				padding: 12em 3em 12.375em 3em ;
 				margin-bottom: -4.75em;
 			}
@@ -3556,7 +3556,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				background-image: linear-gradient(to top, rgb(181 163 175), rgb(46 49 65 / 0%)), url('/nailsby_v_and_v/nails/f1.PNG');
+				background-image: linear-gradient(to top, rgb(181 163 175), rgb(46 49 65 / 0%)), url('/nails/f1.PNG');
 				padding: 5em 2em 4.25em 2em ;
 				margin-bottom: -2.5em;
 			}
@@ -4181,47 +4181,45 @@ input, select, textarea {
 			bottom: 16px;
 		}
 	}
-	@media screen and (max-width: 2300px) {
-		#footer {
-			background-color: white;
-			margin-top: -4.75em;
-			padding-top: 4.75em;
-			color: black;
-			bottom: 17px;
-		}
-	}
-
-	@media screen and (max-width: 1600px) {
-		
-		#footer {
-			background-color: white;
-			margin-top: -4.75em;
-			padding-top: 4.75em;
-		    color: black;
-			bottom: 40px;
-		}
-	}
-	@media screen and (min-width: 1400px ) and (max-width: 1600px){
+	@media screen and (min-width: 3420px){
 		#banner{
 			background-position: center;
+		}
+		#banner h2{
+			font-size: 4em;
+		}
+		#banner p{
+			font-size: 2em;
+		}
+		#banner .logo .icon{
+			font-size: 4em;
+		}
+		#header nav a {
+			font-size: 20px;
+		}
+		#header h1 a {
+			font-size: 20px;
+		}
+		.wrapper{
+			bottom: 160px;
 		}
 		/* #ONE   */
 		.movil{
 			display: flex;
 			flex-direction: column-reverse;
-		}/*
-		#one .inner{
-			display: flex;
-			flex-direction: column;
-			justify-content: space-between;
-		}*/
+		}
 		.movil img{
-			width: 300px;
+			width: 500px;
+			position: relative;
+			bottom: 3em;
 		}
 		.movil h2{
+			font-size: 50px;
 			position: relative;
-			right: 25em;
+			right: 18em;
+			top: 2.5em;
 			margin-top: 25px;
+			width: 600px;
 		}
 		.content{
 			display: flex;
@@ -4229,15 +4227,17 @@ input, select, textarea {
 			position: relative;
 			top: 20px;
 		}
-		.content p{
-			width: 500px;
-			font-size: 20px;
+		#one .content p{
+			width: 900px;
+			font-size: 40px;
 			margin: 0;
 			padding: 0;
 			margin-bottom: 20px;
+			padding-bottom: 30px;
+			margin-top: 40px;
 		}
 		.content button{
-			width: 150px;
+			width: 200px;
 		}
 
 		/*  #TWO   */
@@ -4257,26 +4257,1543 @@ input, select, textarea {
 			right: 100px;
 		}
 		.manicura{
-			width: 250px;
+			width: 500px;
 			position: relative;
-			right: 60px;
+			right: 300px;
+		}
+		.texto-corto{
+			width: 900px;
+			font-size: 40px;
+		}
+		.disennos{
+			position: relative;
+			top: 3em;
+		}
+		.disennos h2{
+			font-size: 40px;
+		}
+		.disennos a{
+			font-size: 2rem;
+
 		}
 		/*   #THREE  */
 		.wrapper.spotlight .personalizados{
-			width: 40%;
+			width: 500px;
+			border-radius: 100em;
+			margin-bottom: 15px;
+			position: relative;
+			left: 4em;
+		}
+		#three .content{
+			position: relative;
+			right: 8em;
+		}
+		#three .content p{
+			width: 900px;
+			font-size: 40px;
+		}
+		#three .content h2{
+			position: relative;
+			right: 14em;
+			font-size: 30px;
+		}
+		#three .content a{
+			position: relative;
+			right: 11em;
+			font-size: 2rem;
+		}
+		#three .inner .foto3{
+			position: relative;
+		}
+		/*   FOUR   */
+		.text-price{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin-right: 50px;
+		}
+		.text-price p{
+			font-size: 40px;
+			width: 50em;
+		}
+		.ptitle{
+			font-size: 40px;
+		}
+		.features article{
+			width: 40em;
+		}
+		.precio1{
+			position: relative;
+			right: 20em;
+		}
+		.precio2{
+			position: relative;
+			bottom: 59.6em;
+			left: 30em;
+		}
+		.precio3{
+			position: relative;
+			bottom: 50em;
+			left: 30em;
+		}
+		.precio4{
+			position: relative;
+			bottom: 107em;
+			right: 20em;
+		}
+		#four{
+			height: 245em;
+		}
+		/*   FOOTER  */
+		#footer {
+		background-size: auto,cover;
+		background-position: center,center;
+		margin-top: -6.5em;
+		}
+		#footer .info{
+			display: flex;
+			position: relative;
+			right: 18em;
+		}
+		#footer h2{
+			font-size: 40px;
+			position: relative;
+			right: 10em;
+		}
+		ul.contact li{
+			width: 800px;
+			font-size: 40px;
+		}
+		.QR img{
+			width: 500px;
+			position: relative;
+			left: 18em;
+		}
+		.QR{
+			margin-left: 50px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+		}
+		.QR p{
+			position: relative;
+			font-size: 30px;
+			left: 13em;
+		  }
+		#footer .inner .copyright {
+			font-size: 40px;
+			position: relative;
+			margin-top: 80px;
+			right: 10em;
+		}
+		#footer {
+			background-color: white;
+			margin-top: -4.75em;
+			padding-top: 4.75em;
+		    color: black;
+			position: relative;
+			bottom: 100em;
+		}
+		#page-wrapper{
+			height: 200em;
+		}
+		
+	}
+	@media screen and (min-width: 3000px) and (max-width: 3400px){
+		#banner{
+			background-position: center;
+		}
+		#banner h2{
+			font-size: 4em;
+		}
+		#banner p{
+			font-size: 2em;
+		}
+		#banner .logo .icon{
+			font-size: 4em;
+		}
+		#header nav a {
+			font-size: 20px;
+		}
+		#header h1 a {
+			font-size: 20px;
+		}
+		.wrapper{
+			bottom: 160px;
+		}
+		/* #ONE   */
+		.movil{
+			display: flex;
+			flex-direction: column-reverse;
+		}
+		.movil img{
+			width: 500px;
+			position: relative;
+			bottom: 3em;
+		}
+		.movil h2{
+			font-size: 50px;
+			position: relative;
+			right: 18em;
+			top: 2.5em;
+			margin-top: 25px;
+			width: 600px;
+		}
+		.content{
+			display: flex;
+			flex-direction: column;
+			position: relative;
+			top: 20px;
+		}
+		#one .content p{
+			width: 900px;
+			font-size: 40px;
+			margin: 0;
+			padding: 0;
+			margin-bottom: 20px;
+			padding-bottom: 30px;
+			margin-top: 40px;
+		}
+		.content button{
+			width: 200px;
+		}
+
+		/*  #TWO   */
+		#two .inner{
+			display: flex;
+			flex-direction: row-reverse;
+			justify-content: center;
+			align-items: start;
+		}
+		.wrapper.spotlight .image{
+			margin: 0;
+			position: relative;
+			left: 110px;
+		}
+		#two .content{
+			position: relative;
+			right: 100px;
+		}
+		.manicura{
+			width: 500px;
+			position: relative;
+			right: 300px;
+		}
+		.texto-corto{
+			width: 900px;
+			font-size: 40px;
+		}
+		.disennos{
+			position: relative;
+			top: 3em;
+		}
+		.disennos h2{
+			font-size: 40px;
+		}
+		.disennos a{
+			font-size: 2rem;
+
+		}
+		/*   #THREE  */
+		.wrapper.spotlight .personalizados{
+			width: 500px;
+			border-radius: 100em;
+			margin-bottom: 15px;
+			position: relative;
+			left: 4em;
+		}
+		#three .content{
+			position: relative;
+			right: 8em;
+		}
+		#three .content p{
+			width: 900px;
+			font-size: 40px;
+		}
+		#three .content h2{
+			position: relative;
+			right: 14em;
+			font-size: 30px;
+		}
+		#three .content a{
+			position: relative;
+			right: 11em;
+			font-size: 2rem;
+		}
+		#three .inner .foto3{
+			position: relative;
+		}
+		/*   FOUR   */
+		.text-price{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin-right: 50px;
+		}
+		.text-price p{
+			font-size: 40px;
+			width: 50em;
+		}
+		.ptitle{
+			font-size: 40px;
+		}
+		.features article{
+			width: 40em;
+		}
+		.precio1{
+			position: relative;
+			right: 20em;
+		}
+		.precio2{
+			position: relative;
+			bottom: 59.6em;
+			left: 30em;
+		}
+		.precio3{
+			position: relative;
+			bottom: 50em;
+			left: 30em;
+		}
+		.precio4{
+			position: relative;
+			bottom: 107em;
+			right: 20em;
+		}
+		#four{
+			height: 245em;
+		}
+		/*   FOOTER  */
+		#footer {
+		background-size: auto,cover;
+		background-position: center,center;
+		margin-top: -6.5em;
+		}
+		#footer .info{
+			display: flex;
+			position: relative;
+			right: 18em;
+		}
+		#footer h2{
+			font-size: 40px;
+			position: relative;
+			right: 10em;
+		}
+		ul.contact li{
+			width: 800px;
+			font-size: 40px;
+		}
+		.QR img{
+			width: 500px;
+			position: relative;
+			left: 18em;
+		}
+		.QR{
+			margin-left: 50px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+		}
+		.QR p{
+			position: relative;
+			font-size: 30px;
+			left: 13em;
+		  }
+		#footer .inner .copyright {
+			font-size: 40px;
+			position: relative;
+			margin-top: 80px;
+			right: 10em;
+		}
+		#footer {
+			background-color: white;
+			margin-top: -4.75em;
+			padding-top: 4.75em;
+		    color: black;
+			position: relative;
+			bottom: 100em;
+		}
+		#page-wrapper{
+			height: 200em;
+		}
+		
+	}
+	@media screen and (min-width: 2801px) and (max-width: 3000px){
+		#banner{
+			background-position: center;
+		}
+		#banner h2{
+			font-size: 4em;
+		}
+		#banner p{
+			font-size: 2em;
+		}
+		#banner .logo .icon{
+			font-size: 4em;
+		}
+		#header nav a {
+			font-size: 20px;
+		}
+		#header h1 a {
+			font-size: 20px;
+		}
+		.wrapper{
+			bottom: 160px;
+		}
+		/* #ONE   */
+		.movil{
+			display: flex;
+			flex-direction: column-reverse;
+		}
+		.movil img{
+			width: 500px;
+			position: relative;
+			bottom: 3em;
+		}
+		.movil h2{
+			font-size: 50px;
+			position: relative;
+			right: 18em;
+			top: 2.5em;
+			margin-top: 25px;
+			width: 600px;
+		}
+		.content{
+			display: flex;
+			flex-direction: column;
+			position: relative;
+			top: 20px;
+		}
+		#one .content p{
+			width: 900px;
+			font-size: 40px;
+			margin: 0;
+			padding: 0;
+			margin-bottom: 20px;
+			padding-bottom: 30px;
+			margin-top: 40px;
+		}
+		.content button{
+			width: 200px;
+		}
+
+		/*  #TWO   */
+		#two .inner{
+			display: flex;
+			flex-direction: row-reverse;
+			justify-content: center;
+			align-items: start;
+		}
+		.wrapper.spotlight .image{
+			margin: 0;
+			position: relative;
+			left: 110px;
+		}
+		#two .content{
+			position: relative;
+			right: 100px;
+		}
+		.manicura{
+			width: 500px;
+			position: relative;
+			right: 300px;
+		}
+		.texto-corto{
+			width: 900px;
+			font-size: 40px;
+		}
+		.disennos{
+			position: relative;
+			top: 3em;
+		}
+		.disennos h2{
+			font-size: 40px;
+		}
+		.disennos a{
+			font-size: 2rem;
+
+		}
+		/*   #THREE  */
+		.wrapper.spotlight .personalizados{
+			width: 500px;
+			border-radius: 100em;
+			margin-bottom: 15px;
+			position: relative;
+			left: 4em;
+		}
+		#three .content{
+			position: relative;
+			right: 8em;
+		}
+		#three .content p{
+			width: 900px;
+			font-size: 40px;
+		}
+		#three .content h2{
+			position: relative;
+			right: 14em;
+			font-size: 30px;
+		}
+		#three .content a{
+			position: relative;
+			right: 11em;
+			font-size: 2rem;
+		}
+		#three .inner .foto3{
+			position: relative;
+		}
+		/*   FOUR   */
+		.text-price{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin-right: 50px;
+		}
+		.text-price p{
+			font-size: 40px;
+			width: 50em;
+		}
+		.ptitle{
+			font-size: 40px;
+		}
+		.features article{
+			width: 40em;
+		}
+		.precio1{
+			position: relative;
+			right: 20em;
+		}
+		.precio2{
+			position: relative;
+			bottom: 59.6em;
+			left: 30em;
+		}
+		.precio3{
+			position: relative;
+			bottom: 50em;
+			left: 30em;
+		}
+		.precio4{
+			position: relative;
+			bottom: 107em;
+			right: 20em;
+		}
+		#four{
+			height: 245em;
+		}
+		/*   FOOTER  */
+		#footer {
+		background-size: auto,cover;
+		background-position: center,center;
+		margin-top: -6.5em;
+		}
+		#footer .info{
+			display: flex;
+			position: relative;
+			right: 18em;
+		}
+		#footer h2{
+			font-size: 40px;
+			position: relative;
+			right: 10em;
+		}
+		ul.contact li{
+			width: 800px;
+			font-size: 40px;
+		}
+		.QR img{
+			width: 500px;
+			position: relative;
+			left: 18em;
+		}
+		.QR{
+			margin-left: 50px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+		}
+		.QR p{
+			position: relative;
+			font-size: 30px;
+			left: 13em;
+		  }
+		#footer .inner .copyright {
+			font-size: 40px;
+			position: relative;
+			margin-top: 80px;
+			right: 10em;
+		}
+		#footer {
+			background-color: white;
+			margin-top: -4.75em;
+			padding-top: 4.75em;
+		    color: black;
+			position: relative;
+			bottom: 100em;
+		}
+		#page-wrapper{
+			height: 200em;
+		}
+		
+	}
+	@media screen and (min-width: 2401px) and (max-width: 2800px){
+		#banner{
+			background-position: center;
+		}
+		#banner h2{
+			font-size: 80px;
+		}
+		#banner p{
+			font-size: 40px;
+		}
+		.wrapper{
+			bottom: 160px;
+		}
+		/* #ONE   */
+		.movil{
+			display: flex;
+			flex-direction: column-reverse;
+		}
+		.movil img{
+			width: 600px;
+			position: relative;
+			bottom: 3em;
+			left: 8em;
+		}
+		.movil h2{
+			font-size: 60px;
+			width: 800px;
+			position: relative;
+			right: 14em;
+			top: 1.5em;
+			margin-top: 25px;
+		}
+		.content{
+			display: flex;
+			flex-direction: column;
+			position: relative;
+			top: 20px;
+		}
+		#one .content p{
+			width: 1000px;
+			font-size: 50px;
+			margin: 0;
+			padding: 0;
+			margin-bottom: 20px;
+			position: relative;
+			top: 30px;
+			left: 5em;
+		}
+		.content button{
+			width: 400px;
+			font-size: 40px;
+			position: relative;
+			top: 40px;
+			left: 6.5em;
+		}
+
+		/*  #TWO   */
+		#two .inner{
+			display: flex;
+			flex-direction: row-reverse;
+			justify-content: center;
+			align-items: start;
+		}
+		.wrapper.spotlight .image{
+			margin: 0;
+			position: relative;
+			left: 110px;
+		}
+		#two .content{
+			position: relative;
+			right: 100px;
+		}
+		#two .content p{
+			width: 1000px;
+			font-size: 50px;
+			margin: 0;
+			padding: 0;
+			margin-bottom: 20px;
+			position: relative;
+			bottom: 40px;
+		}
+		.manicura{
+			width: 500px;
+			position: relative;
+			right: 12em;
+		}
+		.texto-corto{
+			width: 700px;
+			font-size: 30px;
+		}
+		.disennos{
+			position: relative;
+			top: 3em;
+		}
+		.disennos h2{
+			font-size: 60px;
+			position: relative;
+			bottom: 15px;
+		}
+		.disennos a{
+			font-size: 40px;
+			position: relative;
+			bottom: 1em;
+		}
+		/*   #THREE  */
+		.wrapper.spotlight .personalizados{
+			width: 500px;
+			border-radius: 100em;
+			margin-bottom: 15px;
+			position: relative;
+			left: 5em;
+		}
+		#three .content{
+			position: relative;
+			right: 8em;
+		}
+		#three .content p{
+			width: 1000px;
+			font-size: 50px;
+			margin: 0;
+			padding: 0;
+			margin-bottom: 20px;
+			position: relative;
+			left: 2.5em;
+			bottom: 1.5em;
+		}
+		#three .content h2{
+			position: relative;
+			left: 1.5em;
+			font-size: 60px;
+		}
+		#three .content a{
+			font-size: 40px;
+			position: relative;
+			right: 4em;
+			bottom: 1em;
+		}
+		#three .inner .foto3{
+			position: relative;
+		}
+		/*   FOUR   */
+		.text-price{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin-right: 50px;
+		}
+		.ptitle{
+			font-size: 60px;
+			width: 1200px;
+		}
+		.text-price .price{
+			width: 1800px;
+			font-size: 50px;
+			position: relative;
+			bottom: 40px;
+		}
+		.features{
+			width: 140%;
+			position: relative;
+			right: 13em;
+		}
+		.features h3{
+			font-size: 35px;
+		}
+		.features p{
+			font-size: 35px;
+		}
+		.boton .servicio{
+			font-size: 30px;
+			width: 500px;
+		}
+		/*   FOOTER  */
+		#footer {
+		background-size: auto,cover;
+		background-position: center,center;
+		margin-top: -6.5em;
+		bottom: 19px;
+		}
+		#footer .info{
+			display: flex;
+		}
+		#footer .inner .major{
+			font-size: 60px;
+			position: relative;
+			right: 6em;
+		}
+		ul.contact li{
+			width: 800px;
+			font-size: 50px;
+			position: relative;
+			right: 8em;
+		}
+		.QR{
+			margin-left: 50px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+		}
+		.QR img{
+			width: 140%;
+			position: relative;
+			right: 5em;
+			top: 4em;
+		}
+		.QR p{
+			font-size: 50px;
+			width: 800px;
+			position: relative;
+			left: 20px;
+			top: 2em;
+		}
+		.desarrollador{
+			font-size: 60px;
+			position: relative;
+			right: 8em;
+			top: 1em;
+		}
+		#footer {
+			background-color: white;
+			margin-top: -4.75em;
+			padding-top: 4.75em;
+		    color: black;
+			position: relative;
+			bottom: 59px;
+		}
+	}
+	@media screen and (min-width: 2291px) and (max-width: 2400px){
+		#banner{
+			background-position: center;
+		}
+		.wrapper{
+			bottom: 160px;
+		}
+		/* #ONE   */
+		.movil{
+			display: flex;
+			flex-direction: column-reverse;
+		}
+		.movil img{
+			width: 400px;
+			position: relative;
+			bottom: 3em;
+		}
+		.movil h2{
+			font-size: 40px;
+			position: relative;
+			right: 19em;
+			top: 1.5em;
+			margin-top: 25px;
+		}
+		.content{
+			display: flex;
+			flex-direction: column;
+			position: relative;
+			top: 20px;
+		}
+		#one .content p{
+			width: 700px;
+			font-size: 38px;
+			margin: 0;
+			padding: 0;
+			margin-bottom: 20px;
+			position: relative;
+			top: 30px;
+		}
+		.content button{
+			width: 250px;
+			font-size: 25px;
+			position: relative;
+			top: 40px;
+		}
+
+		/*  #TWO   */
+		#two .inner{
+			display: flex;
+			flex-direction: row-reverse;
+			justify-content: center;
+			align-items: start;
+		}
+		.wrapper.spotlight .image{
+			margin: 0;
+			position: relative;
+			left: 110px;
+		}
+		#two .content{
+			position: relative;
+			right: 100px;
+		}
+		#two .content p{
+			width: 700px;
+			font-size: 38px;
+			margin: 0;
+			padding: 0;
+			margin-bottom: 20px;
+			position: relative;
+			bottom: 35px;
+		}
+		.manicura{
+			width: 350px;
+			position: relative;
+			right: 150px;
+		}
+		.texto-corto{
+			width: 700px;
+			font-size: 30px;
+		}
+		.disennos{
+			position: relative;
+			top: 3em;
+		}
+		.disennos h2{
+			font-size: 40px;
+			position: relative;
+			bottom: 15px;
+		}
+		.disennos a{
+			font-size: 30px;
+			position: relative;
+			bottom: 1em;
+		}
+		/*   #THREE  */
+		.wrapper.spotlight .personalizados{
+			width: 370px;
 			border-radius: 100em;
 			margin-bottom: 15px;
 		}
 		#three .content{
 			position: relative;
-			left: 100px;
+			right: 8em;
+		}
+		#three .content p{
+			width: 700px;
+			font-size: 38px;
+			margin: 0;
+			padding: 0;
+			margin-bottom: 20px;
+			position: relative;
+			bottom: 35px;
+		}
+		#three .content h2{
+			position: relative;
+			right: 2em;
+			font-size: 40px;
+		}
+		#three .content a{
+			font-size: 30px;
+			position: relative;
+			right: 6em;
+			bottom: 1em;
+		}
+		#three .inner .foto3{
+			position: relative;
+		}
+		/*   FOUR   */
+		.text-price{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin-right: 50px;
+		}
+		.ptitle{
+			font-size: 40px;
+		}
+		.text-price .price{
+			font-size: 38px;
+			width: 1400px;
+			position: relative;
+			left: 50px;
+		}
+		.features{
+			width: 120%;
+			position: relative;
+			right: 3.5em;
+		}
+		/*   FOOTER  */
+		#footer {
+		background-size: auto,cover;
+		background-position: center,center;
+		margin-top: -6.5em;
+		bottom: 19px;
+		}
+		#footer .info{
+			display: flex;
+		}
+		#footer .inner .major{
+			font-size: 40px;
+			position: relative;
+			right: 3em;
+		}
+		ul.contact li{
+			width: 800px;
+			font-size: 38px;
+			position: relative;
+			right: 4em;
+		}
+		.QR{
+			margin-left: 50px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+		}
+		.QR p{
+			font-size: 35px;
+			width: 600px;
+			position: relative;
+			left: 20px;
+		}
+		.desarrollador{
+			font-size: 38px;
+			position: relative;
+			right: 5em;
+			margin-top: 40px;
+		}
+		#footer {
+			background-color: white;
+			margin-top: -4.75em;
+			padding-top: 4.75em;
+		    color: black;
+			position: relative;
+			bottom: 59px;
+		}
+	}
+	@media screen and (min-width: 1910px) and (max-width: 2290px){
+		#banner{
+			background-position: center;
+		}
+		.wrapper{
+			bottom: 160px;
+		}
+		/* #ONE   */
+		.movil{
+			display: flex;
+			flex-direction: column-reverse;
+		}
+		.movil img{
+			width: 400px;
+			position: relative;
+			bottom: 3em;
+		}
+		.movil h2{
+			font-size: 40px;
+			position: relative;
+			right: 19em;
+			top: 1.5em;
+			margin-top: 25px;
+		}
+		.content{
+			display: flex;
+			flex-direction: column;
+			position: relative;
+			top: 20px;
+		}
+		#one .content p{
+			width: 700px;
+			font-size: 38px;
+			margin: 0;
+			padding: 0;
+			margin-bottom: 20px;
+			position: relative;
+			top: 30px;
+		}
+		.content button{
+			width: 250px;
+			font-size: 25px;
+			position: relative;
+			top: 40px;
+		}
+
+		/*  #TWO   */
+		#two .inner{
+			display: flex;
+			flex-direction: row-reverse;
+			justify-content: center;
+			align-items: start;
+		}
+		.wrapper.spotlight .image{
+			margin: 0;
+			position: relative;
+			left: 110px;
+		}
+		#two .content{
+			position: relative;
+			right: 100px;
+		}
+		#two .content p{
+			width: 700px;
+			font-size: 38px;
+			margin: 0;
+			padding: 0;
+			margin-bottom: 20px;
+			position: relative;
+			bottom: 35px;
+		}
+		.manicura{
+			width: 350px;
+			position: relative;
+			right: 150px;
+		}
+		.texto-corto{
+			width: 700px;
+			font-size: 30px;
+		}
+		.disennos{
+			position: relative;
+			top: 3em;
+		}
+		.disennos h2{
+			font-size: 40px;
+			position: relative;
+			bottom: 15px;
+		}
+		.disennos a{
+			font-size: 30px;
+			position: relative;
+			bottom: 1em;
+		}
+		/*   #THREE  */
+		.wrapper.spotlight .personalizados{
+			width: 370px;
+			border-radius: 100em;
+			margin-bottom: 15px;
+		}
+		#three .content{
+			position: relative;
+			right: 8em;
+		}
+		#three .content p{
+			width: 700px;
+			font-size: 38px;
+			margin: 0;
+			padding: 0;
+			margin-bottom: 20px;
+			position: relative;
+			bottom: 35px;
+		}
+		#three .content h2{
+			position: relative;
+			right: 2em;
+			font-size: 40px;
+		}
+		#three .content a{
+			font-size: 30px;
+			position: relative;
+			right: 6em;
+			bottom: 1em;
+		}
+		#three .inner .foto3{
+			position: relative;
+		}
+		/*   FOUR   */
+		.text-price{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin-right: 50px;
+		}
+		.ptitle{
+			font-size: 40px;
+		}
+		.text-price .price{
+			font-size: 38px;
+			width: 1400px;
+			position: relative;
+			left: 50px;
+		}
+		.features{
+			width: 120%;
+			position: relative;
+			right: 3.5em;
+		}
+		/*   FOOTER  */
+		#footer {
+		background-size: auto,cover;
+		background-position: center,center;
+		margin-top: -6.5em;
+		bottom: 19px;
+		}
+		#footer .info{
+			display: flex;
+		}
+		#footer .inner .major{
+			font-size: 40px;
+			position: relative;
+			right: 3em;
+		}
+		ul.contact li{
+			width: 800px;
+			font-size: 38px;
+			position: relative;
+			right: 4em;
+		}
+		.QR{
+			margin-left: 50px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+		}
+		.QR p{
+			font-size: 35px;
+			width: 600px;
+			position: relative;
+			left: 20px;
+		}
+		.desarrollador{
+			font-size: 38px;
+			position: relative;
+			right: 5em;
+			margin-top: 40px;
+		}
+		#footer {
+			background-color: white;
+			margin-top: -4.75em;
+			padding-top: 4.75em;
+		    color: black;
+			position: relative;
+			bottom: 59px;
+		}
+	}
+	@media screen and (min-width: 1590px) and (max-width: 1900px){
+		#banner{
+			background-position: center;
+		}
+		.wrapper{
+			bottom: 160px;
+		}
+		/* #ONE   */
+		.movil{
+			display: flex;
+			flex-direction: column-reverse;
+		}
+		.movil img{
+			width: 400px;
+			position: relative;
+			bottom: 3em;
+			left: 50px;
+		}
+		.movil h2{
+			font-size: 40px;
+			width: 500px;
+			position: relative;
+			right: 16.5em;
+			top: 1em;
+			margin-top: 25px;
+		}
+		.content{
+			display: flex;
+			flex-direction: column;
+			position: relative;
+			top: 20px;
+			left: 5em;
+		}
+		#one .content p{
+			width: 700px;
+			font-size: 38px;
+			margin: 0;
+			padding: 0;
+			margin-bottom: 20px;
+			position: relative;
+			top: 20px;
+		}
+		.content button{
+			width: 300px;
+			margin-top: 20px;
+			font-size: 30px;
+			position: relative;
+			top: 20px;
+		}
+
+		/*  #TWO   */
+		#two .inner{
+			display: flex;
+			flex-direction: row-reverse;
+			justify-content: center;
+			align-items: start;
+		}
+		.wrapper.spotlight .image{
+			margin: 0;
+			position: relative;
+			left: 110px;
+		}
+		#two .content p{
+			width: 700px;
+			font-size: 38px;
+			margin: 0;
+			padding: 0;
+			margin-bottom: 20px;
+			position: relative;
+			right: 3em;
+			bottom: 1em;
+		}
+		.manicura{
+			width: 350px;
+			position: relative;
+			right: 18em;
+		}
+		.texto-corto{
+			width: 700px;
+			font-size: 35px;
+		}
+		.disennos{
+			position: relative;
+			top: 3em;
+		}
+		.disennos h2{
+			font-size: 40px;
+			width: 800px;
+			position: relative;
+			right: 3em;
+			bottom: 0.5em;
+		}
+		.disennos a{
+			font-size: 30px;
+			position: relative;
+			right: 4em;
+			bottom: 1em;
+		}
+		/*   #THREE  */
+		.wrapper.spotlight .personalizados{
+			width: 370px;
+			border-radius: 100em;
+			margin-bottom: 15px;
+			position: relative;
+			left: 8em;
+		}
+		#three .content{
+			position: relative;
+		}
+		#three .content p{
+			width: 700px;
+			font-size: 38px;
+			margin: 0;
+			padding: 0;
+			margin-bottom: 20px;
+			position: relative;
+			right: 3.5em;
+			bottom: 1em;
+		}
+		#three .content h2{
+			position: relative;
+			right: 5em;
+			font-size: 40px;
+		}
+		#three .content a{
+			font-size: 30px;
+			position: relative;
+			right: 10em;
+			bottom: 1em;
+		}
+		#three .inner .foto3{
+			position: relative;
+		}
+		/*   FOUR   */
+		.text-price{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin-right: 50px;
+		}
+		.ptitle{
+			font-size: 40px;
+		}
+		.text-price .price{
+			font-size: 30px;
+			width: 40em;
+		}
+		.features article{
+			width: 60%;
+		}
+		.features .precio1{
+			position: relative;
+			right: 10em;
+		}
+		.features .precio2{
+			position: relative;
+			bottom: 53em;
+			left: 30em;
+		}
+		.features .precio4{
+			position: relative;
+			bottom: 104em;
+			right: 10em;
+		}
+		.features .precio3{
+			position: relative;
+			bottom: 53em;
+			left: 30em;
+		}
+		/*   FOOTER  */
+		#four.wrapper:after{
+			position: relative;
+			bottom: 100em;
+		}
+		#footer {
+		background-size: auto,cover;
+		background-position: center,center;
+		margin-top: -6.5em;
+		}
+		#footer .info{
+			display: flex;
+		}
+		#footer .inner .major{
+			font-size: 40px;
+			position: relative;
+			right: 5em;
+		}
+		ul.contact li{
+			width: 600px;
+			font-size: 30px;
+			position: relative;
+			right: 8em;
+		}
+		.QR img{
+			position: relative;
+			
+		}
+		.QR{
+			margin-left: 50px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+		}
+		.QR p{
+			font-size: 30px;
+		}
+		.desarrollador{
+			font-size: 30px;
+			margin-top: 30px;
+			position: relative;
+			right: 8em;
+		}
+		#footer {
+			background-color: white;
+			margin-top: -4.75em;
+			padding-top: 4.75em;
+		    color: black;
+			position: relative;
+			bottom: 112.5em;
+		}
+	}
+	@media screen and (min-width: 1351px ) and (max-width: 1590px){
+		#banner{
+			background-position: center;
+		}
+		/* #ONE   */
+		.movil{
+			display: flex;
+			flex-direction: column-reverse;
+		}/*
+		#one .inner{
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}*/
+		.movil img{
+			width: 300px;
+			position: relative;
+			bottom: 60px;
+		}
+		.movil h2{
+			position: relative;
+			right: 23em;
+			top: 30px;
+			margin-top: 25px;
+			font-size: 30px;
+		}
+		.content{
+			display: flex;
+			flex-direction: column;
+			position: relative;
+			top: 20px;
+		}
+		.content p{
+			width: 600px;
+			font-size: 20px;
+			margin: 0;
+			padding: 0;
+			margin-bottom: 20px;
+			font-size: 25px;
+		}
+		.content button{
+			width: 150px;
+			margin-top: 20px;
+		}
+
+		/*  #TWO   */
+		#two .inner{
+			display: flex;
+			flex-direction: row-reverse;
+			justify-content: center;
+			align-items: start;
+		}
+		.wrapper.spotlight .image{
+			margin: 0;
+			position: relative;
+			left: 110px;
+		}
+		#two .content{
+			position: relative;
+			right: 100px;
+		}
+		#two h2{
+			font-size: 30px;
+			width: 600px;
 		}
 		#two p{
-			width: 450px;
+			font-size: 25px;
+			width: 600px;
+		}
+		#two a{
+			font-size: 20px;
+			margin-top: 20px;
+		}
+		.manicura{
+			width: 250px;
+			position: relative;
+			right: 60px;
+			bottom: 30px;
+		}
+		/*   #THREE  */
+		.wrapper.spotlight .personalizados{
+			width: 280px;
+			border-radius: 100em;
+			margin-bottom: 15px;
+			position: relative;
+			left: 90px;
+		}
+		#three .content{
+			position: relative;
+			right: 7em;
 		}
 		#three .inner .foto3{
 			position: relative;
 			right: 80px;
+		}
+		#three h2{
+			font-size: 30px;
+		}
+		#three p{
+			font-size: 25px;
+			position: relative;
+			bottom: 20px;
+		}
+		#three a{
+			font-size: 20px;
 		}
 		/*   PRICE   */
 		.text-price{
@@ -4285,8 +5802,8 @@ input, select, textarea {
 			justify-content: center;
 			align-items: center;
 			margin-right: 50px;
+			font-size: 25px;
 		}
-		
 		.price{
 			width: 900px;
 		}
@@ -4303,8 +5820,14 @@ input, select, textarea {
 		ul.contact li{
 			width: 400px;
 		}
+		#footer .inner .major{
+			font-size: 30px;
+		}
+		.lista .contact li{
+			font-size: 25px;
+		}
 		.QR img{
-			width: 50%;
+			width: 80%;
 			position: relative;
 			left: 120px;
 		}
@@ -4316,43 +5839,50 @@ input, select, textarea {
 
 		}
 		.QR p{
-			text-align: center;
+			font-size: 20px;
+			position: relative;
+			left: 60px;
 		  }
+		.desarrollador{
+			font-size: 25px;
+			margin-top: 30px;
+		}
 	}
-
-	@media screen and (min-width: 1000px ) and (max-width: 1300px) {
-			/* #ONE   */
-			.movil{
-				display: flex;
-				flex-direction: column-reverse;
-			}/*
-			#one .inner{
-				display: flex;
-				flex-direction: column;
-				justify-content: space-between;
-			}*/
+	@media screen and (min-width: 1000px ) and (max-width: 1350px) {
+		    /* BANNER  */
+			#banner p{
+				font-size: 23px;
+			}
+            /* #ONE  */
 			.movil img{
-				width: 200px;
+				width: 300px;
+				position: relative;
+				top: 9em;
+				right: 4em;
 			}
 			.movil h2{
 				position: relative;
-				right: 17em;
+				bottom: 9em;
+				right: 16.5em;
 				margin-top: 25px;
+				font-size: 30px;
 			}
 			.content{
 				display: flex;
 				flex-direction: column;
 				position: relative;
-				top: 20px;
+				top: 45px;
 			}
 			.content p{
-				width: 400px;
+				width: 450px;
 				margin: 0;
 				padding: 0;
-				margin-bottom: 20px;
+				margin-bottom: 40px;
+				font-size: 25px;
 			}
 			.content button{
-				width: 150px;
+				width: 190px;
+				font-size: 20px;
 			}
 	
 			/*  #TWO   */
@@ -4368,25 +5898,59 @@ input, select, textarea {
 				left: 110px;
 			}
 			.manicura{
-				width: 200px;
+				width: 300px;
 			}
 			#two .content{
 				position: relative;
 				right: 100px;
 			}
+			#two .disennos{
+				position: relative;
+				left: 15px;
+			}
+			.disennos .salon{
+				font-size: 25px;
+				position: relative;
+				bottom: 25px;
+				right: 10px;
+			}
+			.disennos p{
+				font-size: 25px;
+				position: relative;
+				bottom: 20px;
+			}
 			/*   #THREE  */
 			.wrapper.spotlight .personalizados{
-				width: 40%;
+				width: 300px;
 				border-radius: 100em;
 				margin-bottom: 15px;
+				position: relative;
+				left: 4em;
+				top: 1em;
 			}
 			#three .content{
 				position: relative;
-				left: 100px;
+				right: 7em;
+			}
+			#three .content h2{
+				font-size: 30px;
+				position: relative;
+				bottom: 20px;
+			}
+			#three .content a{
+				position: relative;
+				bottom: 60px;
+				right: 25px;
+			    font-size: 25px;
 			}
 			#three .inner .foto3{
 				position: relative;
 				right: 80px;
+			}
+			.especial p{
+				font-size: 25px;
+				position: relative;
+				bottom: 50px;
 			}
 			/*   PRICE   */
 			.text-price{
@@ -4395,12 +5959,27 @@ input, select, textarea {
 				justify-content: center;
 				align-items: center;
 				margin-right: 50px;
+				font-size: 30px;
+				margin-top: 20px;
 			}
 			.text-price h2{
 				margin-left: 45px;
 			}
 			.price{
-				width: 750px;
+				padding-left: 40px;
+				width: 850px;
+				font-size: 25px;
+				position: relative;
+				bottom: 20px;
+			}
+			.features h3{
+				font-size: 18px;
+			}
+			.features p{
+				font-size: 18px;
+			}
+			.boton .servicio{
+				font-size: 13px;
 			}
 			/*   FOOTER  */
 			#footer {
@@ -4409,16 +5988,21 @@ input, select, textarea {
 			margin-top: -6.5em;
 			bottom: 19px;
 			}
+			.inner .major{
+				font-size: 30px;
+			}
 			#footer .info{
 				display: flex;
 			}
 			ul.contact li{
 				width: 400px;
+				font-size: 25px;
 			}
 			.QR img{
-				width: 50%;
+				width: 70%;
 				position: relative;
-				left: 120px;
+				left: 70px;
+				top: 5em;
 			}
 			.QR{
 				margin-left: 50px;
@@ -4429,15 +6013,597 @@ input, select, textarea {
 			}
 			.QR p{
 				text-align: center;
+				font-size: 25px;
+				position: relative;
+				top: 3.5em;
 			  }
-	
+			  #footer .inner .copyright li:first-child {
+				font-size: 25px;
+				margin-top: 40px;
+			  }
 	}
-	@media screen and (min-width: 500px ) and (max-width: 1000px) {
+	@media screen and (min-width: 860px ) and (max-width: 999px) {
 		/* #ONE   */
-	    .movil{
+		#one .content{
+			position: relative;
+			top: 40px;
+		}
+		.movil{
 			display: flex;
 			flex-direction: column-reverse;
+			position: relative;
+			top: 35px;
+		}
+		/*
+		#one .inner{
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}*/
+		.movil img{
+			width: 70px;
+		}
+		.movil h2{
+			position: relative;
+			margin-top: 25px;
+			font-size: 30px;
+		}
+		.content{
+			display: flex;
+			flex-direction: column;
+			position: relative;
+			top: 20px;
+		}
+		.content p{
+			width: 320px;
+			margin: 0;
+			padding: 0;
+			margin-bottom: 20px;
+		}
+		.content button{
+			width: 150px;
+		}
+
+		/*  #TWO   */
+		#two .inner{
+			display: flex;
+			flex-direction: row-reverse;
+			justify-content: center;
+			align-items: start;
+		}
+		/*.wrapper.spotlight .image{
+			margin: 0;
+			position: relative;
+			left: 100px;*//*
+			
+		}*/
+		#two .content{
+			position: relative;
+			right: 100px;
+		}
+		/*   #THREE  */
+		.wrapper.spotlight .personalizados{
+			width: 65%;
+			border-radius: 100em;
+			margin-bottom: 15px;
+		}
+		#three .content{
+			position: relative;
+			left: 100px;
+		}
+		#three .inner .foto3{
+			position: relative;
+			right: 80px;
+		}
+		/*   PRICE   */
+		.text-price{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin-right: 50px;
+		}
+		.price{
+			width: 750px;
+			position: relative;
+			left: 30px;
+		}
+		.features{
+			position: relative;
+			left: 30px;
+		}
+		/* FOOTER  */
+		#footer {
+		background-size: auto,cover;
+			background-position: center,
+center;
+			margin-top: -6.5em;
+		
+		}
+	}
+	@media screen and (min-width: 840px) and (max-width: 999px) {
+		#banner{
+			background-image: linear-gradient(to top, rgb(181 163 175), rgb(46 49 65 / 0%)), url('/nails/f1.PNG');
+		}
+		/*   #ONE   */
+		#one .inner{
+			position: relative;
+			left: 70px;
+		}
+		.wrapper{
+			height: 20em;
+		}
+		.movil h2{
+			right: 16.5em;
+			bottom: 30px;
+			margin-bottom: 0;
+			padding-bottom: 0;
+		}
+		.movil img {
+			position: relative;
+			bottom: 60px;
+			width: 13em;
+		}
+		.content p{
+			font-size: 25px;
+			width: 450px;
+		}
+		.content button{
+			font-size: 15px;
+		}
+		/*   #TWO   */
+		#two .manicura{
+			position: relative;
+			left: 8.5em;
+			width: 60%;
+		}
+		#two h2{
+			position: relative;
+			bottom: 15px;
+			font-size: 30px;
+		}
+		#two p{
+			position: relative;
+			bottom: 20px;
+			font-size: 25px;
+		}
+		#two a{
+			position: relative;
+			bottom: 20px;
+			font-size: 20px;
+		}
+		/*  #THREE */
+		#three .content{
+			position: relative;
+			left: 130px;
+			top: 30px;
+		}
+		#three a{
+			position: relative;
+			right: 10em;
+			font-size: 20px;
+
+		}
+		#three .content h2{
+			font-size: 30px;
+			width: 500px;
+			position: relative;
+			right: 80px;
+			bottom: 20px;
+		}
+		#three .content p{
+			font-size: 25px;
+			position: relative;
+			right: 50px;
+			bottom: 70px;
+		}
+		#three .content a{
+			font-size: 20px;
+			position: relative;
+			bottom: 75px;
+			z-index: 1;
+		}
+		.wrapper.spotlight .personalizados{
+			position: relative;
+			left: 40px;
+			bottom: 45px;
+		}
+		/* FOUR   */
+		.features article{
+			width: calc(45% - 1em);
+			position: relative;
+			left: 15px;
+		}
+		.text-price h2{
+			font-size: 30px;
+		}
+		.text-price p{
+			font-size: 25px;
+			bottom: 35px;
+		}
+		.features{
+			bottom: 20px;
+		}
+		.features h3{
+			font-size: 20px;
+		}
+		.features .major{
+			margin-bottom: 0;
+		}
+		.features p{
+			font-size: 20px;
+		}
+		.boton .servicio{
+			font-size: 15px;
+		}
+		/* FOOTER   */
+		.wrapper.alt:after{
+			top: 123em;
+		}
+		#footer{
+			top: 100em;
+		}
+		#footer .info{
+			display: flex;
+		}
+		#footer .inner .major{
+			font-size: 30px;
+		}
+		.lista .contact li{
+			font-size: 25px;
+		}
+		.QR img{
+			width: 80%;
+		}
+		.QR{
+			margin-left: 50px;
+		    position: relative;
+		    top: 90px;
+			left: 40px;
+	    }
+	    .QR p{
+			font-size: 20px;
+      	}
+
+		#footer .inner .copyright li:first-child{
+			margin-top: 20px;
+			font-size: 25px;
+		}
+		#footer {
+			background-color: white;
+			margin-top: -4.75em;
+			padding-top: 3em;
+		    color: black;
+			bottom: 45px;
+			
+		}
+
+		#footer .inner {
+		    color: black;
+			padding: 3em 3em 1em 3em ;
+			display: block;
+			width: 100%;
+		}
+
+		#footer .inner form {
+			width: 100%;
+			margin: 0 0 4em 0;
+		}
+
+		#footer .inner .contact {
+			width: 100%;
+			margin: 0 0 4em 0;
+		}
+
+		#footer .inner .copyright {
+			margin: 0 0 2em 0;
+		}
+
+	}
+	@media screen and (min-width: 810px) and (max-width: 839px) {
+		#banner{
+			background-image: linear-gradient(to top, rgb(181 163 175), rgb(46 49 65 / 0%)), url('/nails/f1.PNG');
+		}
+		/*   #ONE   */
+		#one .inner{
+			position: relative;
+			left: 100px;
+		}
+		.wrapper{
+			height: 20em;
+		}
+		.movil h2{
+			margin-bottom: 0;
+			padding-bottom: 0;
+			font-size: 27px;
+		}
+		.movil img {
+			position: relative;
+			bottom: 60px;
+			width: 13em;
+		}
+		#one .content p{
+			font-size: 25px;
+			position: relative;
+			top: 20px;
+		}
+		.content button{
+			font-size: 15px;
+		}
+		/*   #TWO   */
+		#two .manicura{
+			position: relative;
+			left: 8.5em;
+			width: 11.5em;
+		}
+		#two h2{
+			position: relative;
+			bottom: 15px;
+			font-size: 27px;
+		}
+		#two p{
+			position: relative;
+			bottom: 30px;
+			font-size: 25px;
+		}
+		#two a{
+			position: relative;
+			bottom: 20px;
+			font-size: 20px;
+		}
+		#two .disennos{
+			position: relative;
+			right: 150px;
+		}
+		#two .foto{
+			position: relative;
+			right: 110px;
+		}
+		/*  #THREE */
+		#three .content{
+			position: relative;
+			left: 130px;
+			top: 30px;
+		}
+		#three a{
+			position: relative;
+			right: 5em;
+			font-size: 20px;
+
+		}
+		#three .content h2{
+			font-size: 27px;
+			width: 500px;
+			position: relative;
+			right: 190px;
+			bottom: 20px;
+		}
+		#three .content p{
+			font-size: 25px;
+			position: relative;
+			right: 120px;
+			bottom: 70px;
+			width: 450px;
+		}
+		#three .content a{
+			font-size: 20px;
+			position: relative;
+			bottom: 75px;
+			right: 13em;
+			z-index: 1;
+		}
+		.wrapper.spotlight .personalizados{
+			position: relative;
+			left: 40px;
+			bottom: 45px;
+		}
+		/* FOUR   */
+		.features article{
+			width: calc(45% - 1em);
+			position: relative;
+			left: 15px;
+		}
+		.text-price h2{
+			font-size: 30px;
+		}
+		.text-price p{
+			font-size: 25px;
+			position: relative;
+			bottom: 50px;
+		}
+		.features{
+			position: relative;
+			bottom: 40px;
+		}
+		.features h3{
+			font-size: 20px;
+		}
+		.features .major{
+			margin-bottom: 0;
+		}
+		.features p{
+			font-size: 20px;
+		}
+		.boton .servicio{
+			font-size: 15px;
+		}
+		/* FOOTER   */
+		.wrapper.alt:after{
+			top: 121em;
+		}
+		#footer{
+			top: 100em;
+		}
+		#footer .info{
+			display: flex;
+		}
+		#footer .inner .major{
+			font-size: 30px;
+		}
+		.lista .contact li{
+			font-size: 25px;
+		}
+		.QR img{
+			width: 80%;
+			position: relative;
+			left: 20px;
+		}
+		.QR{
+			margin-left: 50px;
+		    position: relative;
+		    top: 90px;
+			left: 40px;
+	    }
+	    .QR p{
+			font-size: 20px;
+      	}
+
+		#footer .inner .copyright li:first-child{
+			margin-top: 20px;
+			font-size: 25px;
+		}
+		#footer {
+			background-color: white;
+			margin-top: -4.75em;
+			padding-top: 3em;
+		    color: black;
+			bottom: 45px;
+			
+		}
+
+		#footer .inner {
+		    color: black;
+			padding: 3em 3em 1em 3em ;
+			display: block;
+			width: 100%;
+		}
+
+		#footer .inner form {
+			width: 100%;
+			margin: 0 0 4em 0;
+		}
+
+		#footer .inner .contact {
+			width: 100%;
+			margin: 0 0 4em 0;
+		}
+
+		#footer .inner .copyright {
+			margin: 0 0 2em 0;
+		}
+
+	}
+	@media screen and (min-width: 801px ) and (max-width: 850px) {
+		/* #ONE   */
+		
+		#one .content{
+			position: relative;
+			top: 40px;
+		}
+		.movil{
+			display: flex;
+			flex-direction: column-reverse;
+			position: relative;
+			top: 35px;
+		}
+		/*
+		#one .inner{
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}*/
+
+		.movil h2{
+			position: relative;
+			right: 18em;
+			bottom: 30px;
+			margin-top: 25px;
+		}
+		.content{
+			display: flex;
+			flex-direction: column;
+			position: relative;
+			top: 20px;
+		}
+		.content p{
+			margin: 0;
+			padding: 0;
+			margin-bottom: 20px;
+		}
+		.content button{
+			width: 150px;
+			position: relative;
+			left: 120px;
+		}
+
+		/*  #TWO   */
+		#two .inner{
+			display: flex;
+			flex-direction: row-reverse;
+			justify-content: center;
+			align-items: start;
+		}
+		/*.wrapper.spotlight .image{
+			margin: 0;
+			position: relative;
+			left: 100px;*//*
+			
+		}*/
+		
+		/*   #THREE  */
+		.wrapper.spotlight .personalizados{
+			width: 14em;
+			border-radius: 100em;
+			margin-bottom: 15px;
+		}
+		#three .content{
+			position: relative;
+			left: 100px;
+		}
+		#three .inner .foto3{
+			position: relative;
+			right: 80px;
+		}
+		/*   PRICE   */
+		.text-price{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin-right: 50px;
 		}/*
+		.text-price h2{
+			margin-left: 45px;
+		}*/
+		.text-price .ptitle{
+			position: relative;
+			right: 25px;
+		}
+		.price{
+			width: 750px;
+		}
+		/* FOOTER  */
+		#footer {
+		background-size: auto,cover;
+			background-position: center,
+center;
+			margin-top: -6.5em;
+		
+		}
+	}	
+	@media screen and (min-width: 700px ) and (max-width: 800px) {
+		/* #ONE   */
+		#one .content{
+			position: relative;
+			top: 40px;
+		}
+		.movil{
+			display: flex;
+			flex-direction: column-reverse;
+			position: relative;
+			top: 35px;
+		}
+		/*
 		#one .inner{
 			display: flex;
 			flex-direction: column;
@@ -4486,8 +6652,8 @@ input, select, textarea {
 		}
 		/*   #THREE  */
 		.wrapper.spotlight .personalizados{
-			width: 40%;
-			border-radius: 100em;
+			width: 50%;
+			border-radius: 200em;
 			margin-bottom: 15px;
 		}
 		#three .content{
@@ -4505,13 +6671,18 @@ input, select, textarea {
 			justify-content: center;
 			align-items: center;
 			margin-right: 50px;
-		}
+		}/*
 		.text-price h2{
 			margin-left: 45px;
+		}*/
+		.text-price .ptitle{
+			position: relative;
+			right: 25px;
 		}
 		.price{
 			width: 750px;
 		}
+		/* FOOTER  */
 		#footer {
 		background-size: auto,cover;
 			background-position: center,
@@ -4520,87 +6691,41 @@ center;
 		
 		}
 	}
-
-	@media screen and (min-width: 820px) and (max-width: 980px) {
-		/*   #TWO   */
-		#two .manicura{
-			position: relative;
-			left: 170px;
-		}
-		/*  #THREE */
-		#three .content{
-			position: relative;
-			left: 130px;
-		}
-		/* FOUR   */
-		.features article{
-			width: calc(45% - 1em);
-			position: relative;
-			left: 15px;
-		}
-		/* FOOTER   */
-		#footer .info{
-			display: flex;
-		}
-		.QR img{
-			width: 100%;
-		}
-		.QR{
-			margin-left: 50px;
-		    position: relative;
-		    bottom: 90px;
-	    }
-	    .QR p{
-		    text-align: center;
-      	}
-
-		#footer {
-			background-color: white;
-			margin-top: -4.75em;
-			padding-top: 4.75em;
-		    color: black;
-			bottom: 45px;
-			
-		}
-
-		#footer .inner {
-		    color: black;
-			padding: 3em 3em 1em 3em ;
-			display: block;
-			width: 100%;
-		}
-
-		#footer .inner form {
-			width: 100%;
-			margin: 0 0 4em 0;
-		}
-
-		#footer .inner .contact {
-			width: 100%;
-			margin: 0 0 4em 0;
-		}
-
-		#footer .inner .copyright {
-			margin: 0 0 2em 0;
-		}
-
-	}
 	@media screen and (min-width: 700px) and (max-width: 810px) {
 		/*   ONE  */
 		#one .inner{
 			margin-left: 70px;
 		}
+		.movil h2{
+			right: 25em;
+		}
 		.movil img{
 			width: 200px;
+			position: relative;
+			bottom: 80px;
 		}
 		/*   TWO   */
+		#two .inner{
+			position: relative;
+			right: 30px;
+		}
 		.manicura{
 			width: 200px;
 		}
-		/*  THREE  */
 		#two .manicura{
 			position: relative;
 			left: 10em;
+		}
+		.disennos a {
+			font-size: 0.9rem;
+
+		}
+		/*  THREE  */
+		#three a{
+			position: relative;
+			right: 5em;
+			font-size: 0.9rem;
+
 		}
 		/*  FOUR   */
 		.features article{
@@ -4616,6 +6741,9 @@ center;
 		/*   FOOTER  */
 		#footer{
 			bottom: 17px;
+		}
+		#footer .inner{
+			padding-left: 2em;
 		}
 		.lista{
 			margin-left: 25px;
@@ -4636,9 +6764,196 @@ center;
 			display: flex;
 		}
 	}
+	@media screen and (min-width: 500px ) and (max-width: 699px) {
+		/* #ONE   */
+		#one .content{
+			position: relative;
+			top: 40px;
+		}
+		.movil{
+			display: flex;
+			flex-direction: column-reverse;
+			position: relative;
+			top: 35px;
+		}
+		.movil img{
+			width: 40%;
+			position: relative;
+			left: 12em;
+			bottom: 5em;
+		}
+		.movil h2{
+			position: relative;
+			right: 19em;
+			bottom: 2em;
+			margin-top: 25px;
+		}
+		.content{
+			display: flex;
+			flex-direction: column;
+			position: relative;
+			top: 20px;
+		}
+		#one .content p{
+			width: 320px;
+			margin: 0;
+			padding: 0;
+			margin-bottom: 20px;
+			position: relative;
+			left: 14em;
+			bottom: 10px;
+		}
+		.content button{
+			width: 150px;
+			position: relative;
+			left: 17.5em;
+			bottom: 1em;
+		}
 
+		/*  #TWO   */
+		#two .inner{
+			display: flex;
+			flex-direction: row-reverse;
+			justify-content: center;
+			align-items: start;
+		}
+		#two .manicura{
+			width: 40%;
+			position: relative;
+			right: 3em;
+		}
+		#two h2{
+			position: relative;
+			right: 18em;
+		}
+		.texto-corto{
+			width: 320px;
+			margin: 0;
+			padding: 0;
+			margin-bottom: 20px;
+			position: relative;
+			right: 18em;
+		}
+		#two .disennos a{
+			position: relative;
+			right: 23em;
+		}
+		.disennos a{
+			font-size: 0.8rem;
 
-	@media screen and  (min-width: 480px) and (max-width: 700px) {
+		}
+		/*   #THREE  */
+		.wrapper.spotlight .personalizados{
+			width: 60%;
+			border-radius: 100em;
+			margin-bottom: 15px;
+		}
+		#three .content{
+			position: relative;
+			left: 100px;
+		}
+		#three .content p{
+			position: relative;
+			right: 3.5em;
+			bottom: 20px;
+		}
+		#three .content h2{
+			position: relative;
+			right: 7em;
+			bottom: 6px;
+		}
+		#three .content a{
+			position: relative;
+			right: 11em;
+			bottom: 20px;
+			font-size: 0.8rem;
+			z-index: 1;
+		}
+		#three .inner .foto3{
+			position: relative;
+			right: 15px;
+			}
+		/*  #FOUR   */
+		.price{
+			display: none;
+		}
+		.ptitle{
+			margin-left: 8em;
+			font-size: 17px;
+			position: relative;
+			right: 32px;
+		}
+		.features{
+			display: flex;
+			flex-direction: column;
+		}
+		.features article .image img{
+			width: 439px;
+		}
+		.features article{
+			width: 50%;
+			position: relative;
+			left: 60px;
+		}
+		.features h3{
+			font-size: 17px;
+		}
+		.features .major{
+			margin-bottom: 0;
+		}
+		.boton{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.servicio{
+			border: 1px solid #930b78;
+			padding-left: 10px;
+			padding-right: 10px;
+			margin-bottom: 1em;
+		}
+		/* FOOTER  */
+		#footer {
+			background-size: auto,cover;
+			background-position: center,
+	center;
+			margin-top: -6.5em;
+			padding-left: 2em;
+		}
+		#footer{
+			bottom: 16px;
+			padding-top: 0;
+		}
+		#footer .inner .major{
+			font-size: 20px;
+		}
+		.lista .contact li{
+			font-size: 20px;
+		}
+		.QR {
+			display: flex;
+			flex-direction: column;
+			margin-left: 45px;
+			position: relative;
+			left: 60px;
+		}
+		.QR img{
+			width: 30%;
+		}
+		.QR p{
+			font-size: 18px;
+			position: relative;
+			right: 5px;
+		}
+		.copyright{
+			padding-left: 0;
+		}
+		.desarrollador{
+			margin-top: 30px;
+			font-size: 20px;
+		}
+	}
+	@media screen and  (min-width: 480px) and (max-width: 490px) {
 		
 		/* #TWO  */
 		#two .manicura{
@@ -4689,8 +7004,7 @@ center;
 				}
 
 	}
-
-	@media screen and (min-width: 390px ) and (max-width: 480px) {
+	@media screen and (min-width: 390px ) and (max-width: 499px) {
 
 		/* #ONE  */
 		.wrapper.spotlight:nth-child(2n - 1) .inner{
@@ -4716,6 +7030,7 @@ center;
 		.movil h2{
 			position: relative;
 			right: 270px; 
+			top: 35px;
 			width: 200px;
 		}
 		.content{
@@ -4724,14 +7039,16 @@ center;
 			justify-content: center;
 			align-items: center;
 		}
-		.content p{
+		#one .content p{
 			width: 320px;
+			margin-top: 15px;
 		}
 		.content .texto{
 			display: none;
 		}
 		.content button{
 			width: 150px;
+			margin-top: 15px;
 		}
 		/*   #TWO   */
 		#two .content{
@@ -4744,14 +7061,18 @@ center;
 			width: 200px;
 		}
 		.disennos{
-			margin-left: 20px;
+			margin-left: 40px;
+		}
+		.disennos a{
+			font-size: 0.8rem;
+			
 		}
 		.foto{
 			position: relative;
 			left: 25px;
 		}
 		.wrapper.spotlight .image .manicura{
-			width: 35%;
+			width: 33%;
 		}
 		#footer .inner .copyright li {
 			border-left: 0;
@@ -4765,6 +7086,23 @@ center;
 			justify-content: center;
 			align-items: center;
 			text-align: center;
+			position: relative;
+			bottom: 25px;
+		}
+		#three .content p{
+			width: 320px;
+			position: relative;
+			bottom: 30px;
+		}
+		#three h2{
+			position: relative;
+			bottom: 20px;
+		}
+		#three a{
+			position: relative;
+			right: 4em;
+			bottom: 20px;
+			font-size: 0.8rem;
 		}
 		.wrapper.spotlight .personalizados{
 			width: 40%;
@@ -4775,6 +7113,9 @@ center;
 		.price{
 			display: none;
 		}
+		.ptitle{
+			margin-left: 40px;
+		}
 		.features article .image img{
 			width: 350px;
 		}
@@ -4782,6 +7123,9 @@ center;
 			width: 40%;
 			position: relative;
 			left: 25px;
+		}
+		.features h3{
+			font-size: 15px;
 		}
 		.boton{
 			display: flex;
@@ -4797,7 +7141,8 @@ center;
 
 		/* FOOTER  */
 		#footer{
-			bottom: 45px;
+			bottom: 7.6em;
+			padding-top: 0;
 		}
 		#footer .inner {
 			color: black;
@@ -4818,6 +7163,10 @@ center;
 		.QR img{
 			width: 30%;
 		}
+		.QR p{
+			position: relative;
+			right: 5px;
+		}
 
 			#footer .inner .copyright li:first-child {
 				margin-top: 0;
@@ -4828,133 +7177,7 @@ center;
 		}
 		.desarrollador{
 			margin-top: 20px;
-		}
-	}
-
-	@media screen and (max-width: 390px) {
-
-		/*    #ONE     */
-		.wrapper.spotlight:nth-child(2n - 1) .inner{
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			justify-content: center;
-		}
-		.movil{
-			display: flex;
-			flex-direction: row;
-			justify-content: center;
-			align-items: center;
-		}
-		.movil img{
-			margin-left: 80px;
-		}
-		.wrapper.spotlight .image .logo{
-			width: 30%;
-			position: relative;
-			left: 250px;
-		}
-		.movil h2{
-			position: relative;
-			right: 270px; 
-			width: 200px;
-			margin-top: 40px;
-		}
-		.content{
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-			margin-bottom: 20px;
-		}
-		.content p{
-			width: 320px;
-		}
-		.content .texto{
-			display: none;
-		}
-		.content button{
-			width: 150px;
-		}
-       
-		/*   #TWO   */
-		.content .texto-corto{
-			width: 200px;
-		}
-		.disennos .salon{
-			width: 200px;
-		}
-		.disennos{
-			margin-left: 20px;
-		}
-		.foto{
-			position: relative;
-			left: 25px;
-		}
-		.wrapper.spotlight .image .manicura{
-			width: 35%;
-		}
-
-		/* #THREE     */
-		.foto3{
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		}
-		.wrapper.spotlight .personalizados{
-			width: 40%;
-			border-radius: 100em;
-			margin-bottom: 15px
-		}
-		
-		/*  #FOUR   */
-    	.price{
-			display: none;
-		}
-		.features article .image img{
-			width: 350px;
-		}
-		.features article{
-			width: 40%;
-			position: relative;
-			left: 15px;
-		}
-		.boton{
-			display: flex;
-		   justify-content: center;
-		   align-items: center;
-		}
-		.servicio{
-		   border: 1px solid #930b78;
-		   padding-left: 10px;
-		   padding-right: 10px;
-		   margin-bottom: 1em;
-		}
-		 
-		/* FOOTER  */
-		#footer{
-			bottom: 45px;
-		}
-		#footer .inner {
-			color: black;
-			padding: 2em 1.5em 0.1em 1.5em ;
-		}
-		.QR {
-			display: flex;
-			flex-direction: column;
-			margin-left: 45px;
-			/*justify-content: center;
-			align-items: center;
-			text-align: center;*/
-		}
-		.QR img{
-			width: 30%;
-		}
-		.copyright{
-			padding-left: 0;
-		}
-		.desarrollador{
-			margin-top: 20px;
+			font-size: 20px;
 		}
 	}
 	@media screen and (max-width: 375px) {
@@ -4976,6 +7199,9 @@ center;
 			position: relative;
 			left: 5px;
 		}
+		.features h3{
+			margin-bottom: 0;
+		}
 		.boton{
 			display: flex;
 		   justify-content: center;
@@ -4988,9 +7214,178 @@ center;
 		   margin-bottom: 1em;
 		}
 	}
+	@media screen and (min-width: 200px ) and (max-width: 385px) {
+
+		/*    #ONE     */
+		.wrapper.spotlight:nth-child(2n - 1) .inner{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+		.movil{
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+		}
+		.movil img{
+			margin-left: 80px;
+		}
+		.wrapper.spotlight .image .logo{
+			width: 30%;
+			position: relative;
+			left: 230px;
+		}
+		.movil h2{
+			position: relative;
+			right: 270px; 
+			top: 10px;
+			width: 200px;
+			margin-top: 40px;
+		}
+		.content{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 20px;
+		}
+		#one .content p{
+			width: 300px;
+			position: relative;
+            top: 10px;
+		}
+		.content .texto{
+			display: none;
+		}
+		.content button{
+			width: 150px;
+			margin-top: 30px;
+		}
+       
+		/*   #TWO   */
+		.content .texto-corto{
+			width: 200px;
+		}
+		.disennos .salon{
+			width: 200px;
+		}
+		.disennos{
+			margin-left: 20px;
+		}
+		.foto{
+			position: relative;
+			left: 25px;
+		}
+		.wrapper.spotlight .image .manicura{
+			width: 33%;
+			margin-top: 60px;
+		}
+		.disennos a{
+			font-size: 0.8rem;
+			margin-top: 20px;
+		}
+		/* #THREE     */
+		.foto3{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		#three .content p{
+			width: 300px;
+			position: relative;
+			bottom: 10px;
+		}
+		#three a{
+			position: relative;
+			right: 4em;
+			font-size: 0.8rem;
+
+		}
+		.wrapper.spotlight .personalizados{
+			width: 40%;
+			border-radius: 100em;
+			margin-bottom: 15px
+		}
+		
+		/*  #FOUR   */
+		#four h2{
+			margin-left: 20px;
+		}
+    	.price{
+			display: none;
+		}
+		.features article .image img{
+			width: 320px;
+		}
+		.features article{
+			width: 320px;
+			position: relative;
+			left: 15px;
+		}
+		.features h3{
+			font-size: 15px;
+		}
+		.features .major{
+			margin-bottom: 0;
+		}
+		.boton{
+			display: flex;
+		   justify-content: center;
+		   align-items: center;
+		}
+		.servicio{
+		   border: 1px solid #930b78;
+		   padding-left: 10px;
+		   padding-right: 10px;
+		   margin-bottom: 1em;
+		}
+		 
+		/* FOOTER  */
+		#footer{
+			bottom: 7.5em;
+			padding-top: 0;
+		}
+		#footer .inner {
+			color: black;
+			padding: 2em 1.5em 0.1em 1.5em ;
+		}
+		.QR {
+			display: flex;
+			flex-direction: column;
+			margin-left: 45px;
+			/*justify-content: center;
+			align-items: center;
+			text-align: center;*/
+		}
+		.QR img{
+			width: 30%;
+		}
+		.QR p{
+			position: relative;
+			right: 5px;
+		}
+		.copyright{
+			padding-left: 0;
+		}
+		.desarrollador{
+			margin-top: 25px;
+			font-size: 20px;
+		}
+	}
+
+
 .servicio{
 	border: 1px solid #930b78;
     padding-left: 10px;
     padding-right: 10px;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
+}
+.features .major{
+	margin-bottom: 0;
+}
+#banner{
+	background-size: cover;
+	background-position: center center;
 }
